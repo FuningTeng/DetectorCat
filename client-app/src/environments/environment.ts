@@ -5,6 +5,7 @@
 
 export const environment = {
   production: false,
+  aiURL: 'https://tfnnft070809.pythonanywhere.com/api',
   firebase: {
     apiKey: 'AIzaSyCgCpKWdggcV-l9pbqn27PEXv5JdgAk8AE',
     authDomain: 'detectorcat.firebaseapp.com',

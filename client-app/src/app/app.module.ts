@@ -1,3 +1,4 @@
+import { LogicService } from './trial/service/logic.service';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
@@ -16,7 +17,6 @@ import { AppRoutingModule } from './app-routing.module';
     TrialModule
   ],
   providers: [],
-  bootstrap: [AppComponent],
-  schemas: [ ]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }

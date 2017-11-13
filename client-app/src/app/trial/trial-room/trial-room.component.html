@@ -3,3 +3,9 @@
     {{ item.people }}
   </li>
 </ul>
+<textarea [(ngModel)]="kb" rows="10" cols="100"></textarea>
+<button (click)="getResult()">Get Result</button>
+<h2>
+  result for {{kb}} is: 
+</h2>
+<p>{{(result | async)?.result}}</p>
